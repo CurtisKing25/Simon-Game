@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <!-- Links css -->
+    <link rel="stylesheet" href="assignment-02.css">
+    <!-- Links to Orbitron font from google fonts -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Orbitron">
+
+</head>
+
+<!-- Body tag with id to control background colour of the webpage -->
+<body id="body">
+    <!-- Holds all the divs -->
+    <div id="container">
+        <!-- Holds everything but the lights -->
+        <div id="display">
+            <div id="centre"></div>
+            <div id="startCircle"></div>
+            <!-- buttons uses start function to start the game -->
+            <button id="startButton" class="font" type="button" onclick="start();">START</button>
+            <button id="highScore" class="font" type="label">00</button>
+            <button id="lastScore" class="font" type="label">00</button>
+        </div>
+
+        <!-- Holds the lights -->
+        <div id="circles">
+            <!-- Holds the top circles -->
+            <div id="top">
+                <div id="greenCorner" class="corner"></div>
+                <div id="redCorner" class="corner"></div>
+                <div id="green" type="button" onclick="" class="light"></div>
+                <div id="red" class="light"></div>
+            </div>
+            
+            <!-- Holds the top circles -->
+            <div id="bottom">
+                <div id="blueCorner" class="corner"></div>
+                <div id="blue" class="light"></div>
+                <div id="yellowCorner" class="corner"></div>
+                <div id="yellow" class="light"></div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<!-- Links javascript -->
+<script src="assignment-02.js"></script>
+
+</html>
+
+<!-- 
+I used the latest version of google chrome as of the time of the assignment
+23/02/23 - version 110.0.5481.177 on Windows
+    
+References
+    
+https://www.w3schools.com/js/js_htmldom_css.asp
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_change_style
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
+https://www.w3schools.com/jsref/event_onclick.asp 
+https://www.w3schools.com/js/js_timing.asp
+https://www.youtube.com/watch?v=n_ec3eowFLQ
+18:00 for initialising variables
+https:www.w3schools.com/jsref/jsref_random.asp#:~:text=JavaScript%20Math.random()&text=The%20Math.random()%20method,not%20including%201%20(exclusive).
+https://www.w3schools.com/js/js_if_else.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+https://www.w3schools.com/js/js_callback.asp
+https://www.w3schools.com/js/js_timing.asp
+https://www.scaler.com/topics/javascript-queryselector/#:~:text=Overview,or%20a%20group%20of%20selectors.
+https://www.w3schools.com/js/js_variables.asp#:~:text=Value%20%3D%20undefined,will%20have%20the%20value%20undefined%20.
+https://www.rapidtables.com/web/color/Yellow_Color.html
+https://linuxhint.com/change-element-background-color-javascript/#:~:text=Conclusion-,To%20change%20the%20background%20color%20of%20an%20element%20in%20JavaScript,to%20the%20selected%20HTML%20element.
+https://www.techonthenet.com/css/properties/background_color.php
+
+-->
